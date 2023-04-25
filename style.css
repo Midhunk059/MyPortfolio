@@ -1,0 +1,192 @@
+body{
+    background-color: rgb(216, 235, 134);
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 0;
+    height: 75px;
+    justify-content: space-between;
+    background-color: rgb(115, 115, 13);
+    color: white;
+    font-weight: bolder;
+    align-items: center;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.6);
+    position: fixed;
+}
+
+.item{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.item1{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.Itema{
+    margin-left: 15px;
+    
+}
+.main{
+    padding-top: 30px;
+    height: 90vh;
+    width: 100%;
+    background-color: rgb(216, 235, 134);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.cls{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    
+    text-align: center;
+   /* border: 1px solid black;*/
+}
+.class1{
+    margin-top: 60px;
+}
+.class2{
+    margin-top: -30px;
+    padding: 1px;
+}
+.hi{
+    border-radius: 50%;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.6);
+}
+.quotes{
+    font-size: 40px;
+}
+.main-span{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.About{
+    text-align: center;
+    background-color: rgb(115, 115, 13);
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.skill{
+    text-align: left;
+    background-color: rgb(115, 115, 13);
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+    padding: 30px;
+    padding-top: 5px;
+}
+.education{
+    text-align: center;
+    background-color: rgb(115, 115, 13);
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(166, 188, 23);
+}
+.skills{
+    width: 100%;
+    text-align: right;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(166, 188, 23);
+    border-radius: 25px;
+}
+.skilleach{
+    text-align: right;
+    background-color:  rgb(216, 235, 134);
+    padding: 5px;
+    border-radius: 25px;
+}
+.html{
+   width: 80%;
+}
+.css{
+   width: 80%;
+}
+.js{
+  width: 65%;
+}
+.node{
+    width: 30%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footers{
+    text-align: center;
+    font-weight: lighter;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 1px;
+    
+    overflow-y: hidden;
+    margin-top: 0;
+}
+.edu-container{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    justify-content: space-around;
+    color: black;
+}
+.edu-item{
+    padding: 10px;
+    background-color:rgb(216, 235, 134);
+    border-radius: 25px;
+    margin: 10px;
+}
+.footeritem{
+    border-radius: 50%;
+    background-color: rgb(115, 115, 13);
+    padding: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.6);
+    height:30px;
+    width:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    color: white;
+    font-size: large;
+}
+.icon:hover{
+    color: rgb(115, 115, 13);
+}
+.footeritem:hover{
+    background-color: white;
+}
+
